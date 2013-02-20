@@ -166,7 +166,7 @@ require 'tempfile'
 
     namespace :chef do
 
-      set_default :chef_version, "~> 10.18.2"
+      set_default :chef_version, "~> 11.4.0"
       set_default :cookbooks_directory, ["config/cookbooks"]
       set_default :databags_directory, "config/data_bags"
       set_default :copyfile_disable, false
